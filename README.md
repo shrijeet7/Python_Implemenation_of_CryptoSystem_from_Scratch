@@ -1,13 +1,21 @@
 # Python_Implemenation_of_CryptoSystem_from_Scratch
 
 This directory contains scratch implementation of various Crypto systems:
+
 The only libraries used :
+
 ------------------------numpy      : for array conversion and easy of using matrix multiplication
-------------------------random     : random number generation when required (except in RC4 , we used our own implementation of Psuedo random number generator)
+
+------------------------random     : random number generation when required 
+                                   
+                                   (except in RC4 , we used our own implementation of Psuedo random number generator)
+
 ------------------------matplotlib : for image visualization in visual cryptography
+
 ------------------------openCV2    : for reading and writing images for visual cryptography
 
-This files present in this directory are ipynb files (ipython notebook,use google colab or jupyter to open them) :
+
+These files present in the directory are ipynb files (ipython notebook,use google colab or jupyter notebook to open) :
 1. 2_2SecretSharingScheme.ipynb 			: Scratch implementation of 2,2 shamir secret sharing scheme
 2. Ceaser's Cipher.ipynb        			: Scratch implementation of Ceaser's Cipher
 3. RC4.ipynb                    			: Scratch implementation of RC4 crypto system
